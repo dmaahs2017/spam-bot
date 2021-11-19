@@ -190,9 +190,9 @@ dependencies = [
 
 [[package]]
 name = "rammer"
-version = "0.2.2"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e30519b1f9c036b0fddf519265b92417f8efa3e752652dea09df8d672357d394"
+checksum = "dc830278cc817caec217562871467751753d088b0210e74f699d905364bb7714"
 dependencies = [
  "rayon",
  "serde",
