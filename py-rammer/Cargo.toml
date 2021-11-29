@@ -13,5 +13,5 @@ crate-type = ["cdylib"]
 rammer = "*"
 
 [dependencies.cpython]
-version = "0.7"
+version = "0.7.0"
 features = ["extension-module"]
