@@ -23,4 +23,4 @@ class SpamBotClient(discord.Client):
 
 bot = SpamBotClient()
 token = open("token.txt", "r").read()
-bot.run("OTE0OTQyNDU0OTk2ODExODc2.YaUYkA.cMLIC8J9VraNR9h7b9DQH6jDuYM")
+bot.run(token)
