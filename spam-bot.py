@@ -18,7 +18,11 @@ class SpamBotClient(discord.Client):
             print(f"{prob * 100}% chance of spam: '{message.content}'")
 
             if prob > .85:
-                await message.reply(f"{prob * 100} chance of spam.")
+                # await message.reply(f"{prob * 100} chance of spam.")
+                await message.add_reaction("🇸")
+                await message.add_reaction("🇵")
+                await message.add_reaction("🇦")
+                await message.add_reaction("🇲")
 
 
 bot = SpamBotClient()
